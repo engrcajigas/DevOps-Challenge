@@ -6,7 +6,7 @@
 
 * Terraform installed locally. (Instructions [here](https://learn.hashicorp.com/tutorials/terraform/install-cli))
 * An AWS CLI profile as desribe [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html).
-This project uses the profile named "`stephane`". If you want to use a different AWS profile, change the entry in the <b>`variables.tf`</b> file in the root directory.
+This project uses the profile named "`stephane`". To use a different AWS profile, change the entry in the <b>`variables.tf`</b> file in the root directory.
 
 After cloning the repository, do the following:
 1. Rename <b>`template.terraform.tfvars`</b> to <b>`terraform.tfvars`</b>
