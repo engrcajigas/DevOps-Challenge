@@ -13,7 +13,7 @@ After cloning the repository, do the following:
 2. Change values of the variables <b>`AWS_ACCESS_KEY`</b> and <b>`AWS_SECRET_KEY`</b>
 3. Run <b>`terraform init`</b> (Make sure you are in the root directory)
 4. Run <b>`terraform plan`</b>
-5. Run <b>`terraform apply`</b>
+5. Run <b>`terraform apply -auto-approve`</b>
 
 
 Open the provided <b>`alb_url`</b> in your browser to access your webserver. (It can be found as an output on the console where `terraform apply` is run)
