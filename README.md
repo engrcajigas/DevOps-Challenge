@@ -11,7 +11,7 @@ This project uses the profile named "`stephane`". To use a different AWS profile
 After cloning the repository, do the following:
 1. Rename <b>`template.terraform.tfvars`</b> to <b>`terraform.tfvars`</b>
 2. Change values of the variables <b>`AWS_ACCESS_KEY`</b> and <b>`AWS_SECRET_KEY`</b>
-3. Run <b>`terraform init`</b>
+3. Run <b>`terraform init`</b> (Make sure you are in the root directory)
 4. Run <b>`terraform plan`</b>
 5. Run <b>`terraform apply`</b>
 
