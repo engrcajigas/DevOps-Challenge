@@ -28,8 +28,8 @@ Install stress on your instance:
 2. Install stress using the command <b>`sudo yum install stress -y`</b>.
 
 Once installed, use stress by running:
-<b>`sudo stress --cpu 1 --timeout 300`</b>
-The above command will generate a thread to max out a single CPU core for 300 seconds.
+<b>`sudo stress --cpu 1 --timeout 600`</b>
+The above command will generate a thread to max out a single CPU core for 600 seconds.
 After a while, the scaling up alarm will be triggered and a new instance will be provision.
 
 Once Stress process is finished, and CPU utilization is back to normal level auto scaling will terminate an instance in the group as defined by our scaling down policy.
